@@ -8,7 +8,7 @@ client.on('ready',  () => {
   console.log(`Logged in as  * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
   console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
   console.log('is online')
-client.user.setStatus("dnd");
+client.user.setStatus("online");
 });
 
 client.on('message', msg => {
